@@ -1,5 +1,7 @@
 .img-tamanho {
     width: 70px;
+    padding: 0;
+    margin: 0;
 }
 
 .fa-bars {
@@ -52,7 +54,7 @@ footer {
 }
 
 .bg-laranja {
-    background: orange;
+    background: #ffa500;
 }
 
 .criador {
@@ -61,4 +63,19 @@ footer {
 
 .criador:hover {
     color:  gray;
+}
+
+.fonte_laranja {
+    color: #ffa500;
+}
+
+.btn-laranja {
+    border: 1px solid #ffa500;
+    color: #ffa500;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-laranja:hover {
+    background: #ffa500;
+    color: #ffffff;
 }
