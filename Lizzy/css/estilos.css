@@ -1,5 +1,33 @@
+/*Estilos gerais*/
+
+.bg-laranja {
+    background: #ffa500;
+}
+
+
+
+.fonte_laranja {
+    color: #ffa500;
+}
+
+.btn-laranja {
+    border: 1px solid #ffa500;
+    color: #ffa500;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-laranja:hover {
+    background: #ffa500;
+    color: #ffffff;
+}
+
+
+/*Header*/
+
 .img-tamanho {
     width: 70px;
+    padding: 0;
+    margin: 0;
 }
 
 .fa-bars {
@@ -10,9 +38,6 @@
     background: url(../img/fundo.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-}
-
-.fundo {
     height: 550px;
 }
 
@@ -20,10 +45,25 @@
     background: rgba(41,43,44,0.8);
 }
 
+/*Sections*/
+
 .conteudo1 {
     background: rgba(41,43,44,1);
     /*height: 520px;*/
     padding-bottom: 40px;
+}
+
+.conteudo2 {
+    background: url(../img/fundo2.jpg) no-repeat center center;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Footer*/
+
+footer {
+    height: 80px;
 }
 
 .fab {
@@ -36,23 +76,8 @@
     margin-left: 7px;
 }
 
-.conteudo2 {
-    background: url(../img/fundo2.jpg) no-repeat center center;
-    height: 500px;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-footer {
-    height: 80px;
-}
-
 .textos {
     color: orange;
-}
-
-.bg-laranja {
-    background: orange;
 }
 
 .criador {
@@ -61,4 +86,9 @@ footer {
 
 .criador:hover {
     color:  gray;
+}
+
+.invisivel {
+    /*display: none;*/
+
 }
