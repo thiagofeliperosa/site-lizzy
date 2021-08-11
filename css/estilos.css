@@ -9,7 +9,7 @@
 .fonte_laranja {
     color: #ffa500;
 }
-
+ 
 .btn-laranja {
     border: 1px solid #ffa500;
     color: #ffa500;
@@ -51,6 +51,11 @@
     background: rgba(41,43,44,1);
     /*height: 520px;*/
     padding-bottom: 40px;
+}
+
+.conteudo3 {
+    background: rgba(41,43,44,1);
+    height: 520px;
 }
 
 .conteudo2 {
